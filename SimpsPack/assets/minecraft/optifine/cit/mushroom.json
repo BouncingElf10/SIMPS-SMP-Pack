@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/mushroom",
+		"particle": "block/mushroom"
+	},
+	"elements": [
+		{
+			"from": [6, 14, 6],
+			"to": [12, 18, 12],
+			"faces": {
+				"north": {"uv": [10, 3, 13, 5], "texture": "#0"},
+				"east": {"uv": [10, 5, 13, 7], "texture": "#0"},
+				"south": {"uv": [10, 7, 13, 9], "texture": "#0"},
+				"west": {"uv": [10, 9, 13, 11], "texture": "#0"},
+				"up": {"uv": [3, 13, 0, 10], "texture": "#0"},
+				"down": {"uv": [13, 0, 10, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 18, 4],
+			"to": [14, 24, 14],
+			"faces": {
+				"north": {"uv": [5, 0, 10, 3], "texture": "#0"},
+				"east": {"uv": [5, 3, 10, 6], "texture": "#0"},
+				"south": {"uv": [5, 6, 10, 9], "texture": "#0"},
+				"west": {"uv": [5, 9, 10, 12], "texture": "#0"},
+				"up": {"uv": [5, 5, 0, 0], "texture": "#0"},
+				"down": {"uv": [5, 5, 0, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"translation": [0, 0, -14],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1]
+		}
+	]
+}

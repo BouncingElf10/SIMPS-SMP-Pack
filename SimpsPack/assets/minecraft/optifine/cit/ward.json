@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"1": "block/ward",
+		"particle": "block/ward"
+	},
+	"elements": [
+		{
+			"name": "left_tendril",
+			"from": [-11, 9, 8],
+			"to": [5, 25, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [7.25, 0, 9.25, 2], "texture": "#1"},
+				"east": {"uv": [7.25, 0, 7.25, 2], "texture": "#1"},
+				"south": {"uv": [6.5, 4, 8.5, 6], "texture": "#1"},
+				"west": {"uv": [9.25, 0, 9.25, 2], "texture": "#1"},
+				"up": {"uv": [9.25, 0, 7.25, 0], "texture": "#1"},
+				"down": {"uv": [11.25, 0, 9.25, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "right_tendril",
+			"from": [11, 9, 8],
+			"to": [27, 25, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [6.5, 4, 8.5, 6], "texture": "#1"},
+				"east": {"uv": [6.5, 4, 6.5, 6], "texture": "#1"},
+				"south": {"uv": [7.25, 0, 9.25, 2], "texture": "#1"},
+				"west": {"uv": [8.5, 4, 8.5, 6], "texture": "#1"},
+				"up": {"uv": [8.5, 4, 6.5, 4], "texture": "#1"},
+				"down": {"uv": [10.5, 4, 8.5, 4], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -2.75, 0],
+			"scale": [2.1, 2.1, 2.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "left_tendril",
+			"origin": [0, 46, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		},
+		{
+			"name": "right_tendril",
+			"origin": [16, 46, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [1]
+		}
+	]
+}
