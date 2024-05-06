@@ -1,0 +1,58 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "blueprints",
+		"1": "blueprintsides",
+		"particle": "blueprints"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 6],
+			"to": [14, 9, 6.4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [6, 1, 6.25, 5.5], "texture": "#1"},
+				"south": {"uv": [0, 4.5, 6, 9], "texture": "#1"},
+				"west": {"uv": [6, 5.5, 6.25, 10], "texture": "#1"},
+				"up": {"uv": [12, 0.25, 6, 0], "texture": "#1"},
+				"down": {"uv": [12, 0.5, 6, 0.75], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 6, -0.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 6, -0.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-5, 11.5, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-9.25, 13.75, 0],
+			"scale": [2.14258, 1.57813, 1]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -4.5, 2.25]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 3.75, 0]
+		},
+		"fixed": {
+			"translation": [8, 16, 7.75],
+			"scale": [4, 4, 4]
+		}
+	}
+}
