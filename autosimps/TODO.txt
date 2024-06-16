@@ -1,0 +1,4 @@
+Crash Repots, more like console logs
+Automatic update detection
+
+rip this project
